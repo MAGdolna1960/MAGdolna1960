@@ -1,8 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .toggle-btn {
+    @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+  }
+}
 
-/* :root {
+body {
+  background-color: #EBF8FF;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-} */
+a {color:  #4a5568;}
 
