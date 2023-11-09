@@ -12,10 +12,10 @@ export default {
           DEFAULT: '#3182ce',
           dark: '#3182ce',
         },
-        
+        'main-head-tx-color': '#4a5568',
       },
       fontFamily: {
-        'sans': ['"Monserat"',],
+        'sans': ['"Montserrat"'],
       },
     },
   },

@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="flex justify-between py-4 relative">
+      <div className="flex justify-between py-4 relative">
         <div className='flex'>
           <img src={logo} className='h-8 w-8 mr-2' alt="Logo" />
           <a className="text-mainblue text-2xl font-bold" href="#home">MAGdalenum</a>
@@ -36,7 +36,7 @@ const Header = () => {
             </div>
           </button>
         </div>
-      </section>
+      </div>
       <MobileMenu 
        toggleRef={toggleButtonRef}
        open={open}
