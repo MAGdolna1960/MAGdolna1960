@@ -1,32 +1,36 @@
 
-
-import ScrollToTopButton from "../../components/layouts/ScrollToTopButton";
 import Hero from "./Hero";
 import Testimonial from "./Testimonial";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 import Workshop from "./Workshop";
 import About from "./About";
-import Service from "./Service";
+import Service from "./service/Service";
+import Upcoming from "./upcoming/Upcoming";
+import Faq from "./FAQ";
+import Languages from "./language/Languages";
 
 const Home = () => {
-  
+
   return (
     <div>
-      <Hero/>
-      <About/>
-      <Service/>
+      <Hero />
+      <Upcoming />
+      <About />
+      <Languages />
+      <Service />
       <Testimonial />
-      <Workshop/>
-      <Gallery/>
-      <Contact/>
-      <ScrollToTopButton/>
+      <Workshop />
+      <Gallery />
+      <Faq />
+      <Contact />
+
     </div>
-    
+
   )
 }
 
 export default Home
 
 
-{/* <h1>{t("welcome")}</h1> */}
+{/* <h1>{t("welcome")}</h1> */ }

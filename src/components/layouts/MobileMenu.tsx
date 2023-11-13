@@ -1,4 +1,4 @@
-import { useRef, useEffect} from "react"
+import { useRef, useEffect } from "react"
 
 interface MobileMenuPropsMain {
   toggleRef: React.RefObject<HTMLSpanElement>,
@@ -30,29 +30,43 @@ const MobileMenu = ({ toggleRef, open, setOpen }: MobileMenuPropsMain) => {
       <a
         href="#home"
         onClick={() => setOpen(false)}
-        className='py-1 text-2xl text-mainblue font-sans'
-      >
+        className='py-1 text-2xl text-mainblue font-sans'>
         Home</a>
       <a
-        href="#menu1"
+        href="#upcoming"
         onClick={() => setOpen(false)}
         className='py-1 text-2xl text-mainblue font-sans'>
-        menu1</a>
+        Upcoming Events</a>
       <a
-        href="#menu2"
+        href="#languages"
         onClick={() => setOpen(false)}
         className='py-1 text-2xl text-mainblue font-sans'>
-        menu2</a>
+        Languages</a>
       <a
-        href="#menu3"
+        href="#service"
         onClick={() => setOpen(false)}
         className='py-1 text-2xl text-mainblue font-sans'>
-        menu3</a>
+        Services</a>
       <a
-        href="#menu4"
+        href="#gallery"
         onClick={() => setOpen(false)}
         className='py-1 text-2xl text-mainblue font-sans'>
-        menu4</a>
+        Gallery</a>
+      <a
+        href="#workshops"
+        onClick={() => setOpen(false)}
+        className='py-1 text-2xl text-mainblue font-sans'>
+        Workshops</a>
+      <a
+        href="#about"
+        onClick={() => setOpen(false)}
+        className='py-1 text-2xl text-mainblue font-sans'>
+        About</a>
+      <a
+        href="#faq"
+        onClick={() => setOpen(false)}
+        className='py-1 text-2xl text-mainblue font-sans'>
+        FAQ</a>
     </div>
   )
 }

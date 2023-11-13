@@ -18,14 +18,16 @@ const Header = () => {
           <a className="text-mainblue text-2xl font-bold" href="#home">MAGdalenum</a>
         </div>
         <div className='hidden md:block'>
-          <a href="#home" className='px-5 text-2xl text-mainblue font-sans'>Home</a>
-          <a href="#menu1" className='px-5 text-2xl text-mainblue font-sans'>menu1</a>
-          <a href="#menu2" className='px-5 text-2xl text-mainblue font-sans'>menu2</a>
-          <a href="#menu3" className='px-5 text-2xl text-mainblue font-sans'>menu3</a>
-          <a href="#menu4" className='px-5 text-2xl text-mainblue font-sans'>menu4</a>
+          <a href="#home" className='px-5 text-xl text-mainblue font-sans'>Home</a>
+          <a href="#upcoming" className='px-5 text-xl text-mainblue font-sans'>Upcoming Events</a>
+          <a href="#languages" className='px-5 text-xl text-mainblue font-sans'>Languages</a>
+          <a href="#service" className='px-5 text-xl text-mainblue font-sans'>Services</a>
+          <a href="#gallery" className='px-5 text-xl text-mainblue font-sans'>Gallery</a>
+          <a href="#workshops" className='px-5 text-xl text-mainblue font-sans'>Workshops</a>
+          <a href="#about" className='px-5 text-xl text-mainblue font-sans'>About</a>
         </div>
         <div>
-          <button className='hidden xl:block text-mainblue border border-mainblue py-2 px-8 rounded-full'>FAQ</button>
+          <a href="#faq" className='hidden xl:block text-mainblue border border-mainblue py-2 px-8 rounded-full'>FAQ</a>
           <button
             id="hamburger-button"
             onClick={() => { setOpen((prev) => !prev) }}
